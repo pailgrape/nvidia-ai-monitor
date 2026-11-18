@@ -70,6 +70,14 @@ ai-monitor
 
 ---
 
+## Optional: Smart-screen Bridge
+
+An optional `smart-screen/` package pushes the same telemetry to a **3.5″ Revision A** USB smart screen (USB35INCHSV2 / QinHeng UsbMonitor).  
+It is completely separate from the desktop GUI and only needed if you want a dedicated physical panel for compute loads.  
+See [smart-screen/README.md](smart-screen/README.md) for details.
+
+---
+
 ## License
 
 Released under the [MIT License](LICENSE).
