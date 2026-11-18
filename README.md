@@ -78,6 +78,13 @@ See [smart-screen/README.md](smart-screen/README.md) for details.
 
 ---
 
+## Acknowledgments & Related Projects
+
+- **nvidia-smi / nvidia-settings**: System utilities provided by the NVIDIA proprietary drivers. This project only calls them; it does not redistribute any NVIDIA code.
+- **turing-smart-screen-python** ([mathoudebine/turing-smart-screen-python](https://github.com/mathoudebine/turing-smart-screen-python)): The open-source project that documents and implements the Revision A serial protocol used by 3.5″ Turing / TURZX / UsbPCMonitor screens. The optional `smart-screen/bridge.py` re-implements a minimal subset of that protocol from public documentation so the bridge stays lightweight. Full credit for the protocol research and reference implementation goes to that project and its community.
+
+---
+
 ## License
 
 Released under the [MIT License](LICENSE).
